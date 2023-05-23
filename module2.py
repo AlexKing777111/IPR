@@ -1,3 +1,4 @@
+"""Модуль 2."""
 import warnings
 
 

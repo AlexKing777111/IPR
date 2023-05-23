@@ -1,3 +1,4 @@
+"""Модуль 1."""
 import warnings
 
 
