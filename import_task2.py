@@ -3,9 +3,10 @@ from importlib import import_module
 
 
 def func_for_import(module_name):
-    import_module(module_name)
+    return import_module(module_name)
 
 
 if __name__ == "__main__":
-    func_for_import("module2")
+    module2 = func_for_import("module2")
     print("Работа функции завершена")
+    module2.new_func()
